@@ -8,5 +8,8 @@
     <string name="news">News</string>
     <string name="images">Images</string>
     <string name="recent">Recent Activity</string>
+    <string name="title_activity_best_location_now">BestLocationNow</string>
+
+    <string name="hello_world">Hello world!</string>
 
 </resources>
