@@ -26,7 +26,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/nextBestNightBtn"
-        android:layout_alignEnd="@+id/nextBestNightBtn" />
+        android:layout_alignEnd="@+id/nextBestNightBtn"
+        android:onClick="changePlanAhead"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -37,7 +38,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/planAheadBtn"
-        android:layout_alignEnd="@+id/planAheadBtn" />
+        android:layout_alignEnd="@+id/planAheadBtn"
+        android:onClick="changeNews"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -48,7 +50,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/newsBtn"
-        android:layout_alignEnd="@+id/newsBtn" />
+        android:layout_alignEnd="@+id/newsBtn"
+        android:onClick="changeImages"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -59,6 +62,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/images"
         android:layout_alignRight="@+id/images"
-        android:layout_alignEnd="@+id/images" />
+        android:layout_alignEnd="@+id/images"
+        android:onClick="changeRecentActivity"/>
 
 </RelativeLayout>
