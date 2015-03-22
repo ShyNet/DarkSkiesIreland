@@ -20,6 +20,22 @@
             android:name=".BestLocationNow"
             android:label="@string/title_activity_best_location_now" >
         </activity>
+        <activity
+            android:name=".PlanAhead"
+            android:label="@string/title_activity_plan_ahead" >
+        </activity>
+        <activity
+            android:name=".News"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name=".Images"
+            android:label="@string/title_activity_images" >
+        </activity>
+        <activity
+            android:name=".RecentActivity"
+            android:label="@string/title_activity_recent" >
+        </activity>
     </application>
 
 </manifest>

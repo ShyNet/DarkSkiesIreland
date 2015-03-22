@@ -9,7 +9,14 @@
     <string name="images">Images</string>
     <string name="recent">Recent Activity</string>
     <string name="title_activity_best_location_now">BestLocationNow Activity</string>
-
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_plan_ahead">PlanAhead Activity</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_images">Images</string>
+    <string name="uploadImages">Upload Images</string>
+    <string name="myImg">My Images</string>
+    <string name="ViewImg">View Images </string>
+    <string name="title_activity_recent">RecentActivity</string>
+
 
 </resources>

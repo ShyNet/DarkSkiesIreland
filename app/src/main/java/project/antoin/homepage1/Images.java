@@ -1,49 +1,25 @@
 package project.antoin.homepage1;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 
-public class MainActivity extends ActionBarActivity {
+public class Images extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_images);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_images, menu);
         return true;
-    }
-    public void changeBestLocationNow(View view){
-        Intent intent = new Intent(this,BestLocationNow.class);
-        startActivity(intent);
-    }
-    public  void changePlanAhead(View view){
-        Intent intent = new Intent(this, PlanAhead.class);
-        startActivity(intent);
-
-
-    }
-    public void changeNews(View view){
-        Intent intent= new Intent(this, News.class);
-        startActivity(intent);
-    }
-    public void changeImages(View view){
-        Intent intent = new Intent(this, Images.class);
-        startActivity(intent);
-    }
-    public void changeRecentActivity(View view){
-        Intent intent = new Intent(this, RecentActivity.class);
-        startActivity(intent);
     }
 
     @Override
