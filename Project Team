@@ -1,0 +1,28 @@
+Principle Roles 
+Niall Whelehan
+- Server Side development
+Antoin Judge
+- Android Developer
+Emmanuel Ntibimenya
+- Android Developer
+Kieran Judge
+- UX Design, QA Tester
+
+The team are operating on a modified Agile effort. As we won't see each other every morning for our 15 minute "scrum"
+it is even more important that we make sure our time is being well spent. There is a constant line of communication
+open with us.
+
+Niall is learning some Ruby to have a working backend operating on nitrous.io. He will be working closely with Antoin
+and Emmanuel to make sure that the endpoints and naming conventions are the same. 
+
+Initially, Antoin's role will be mapping the Android App to match Kieran's descriptions. Functions will be limited to
+navigating to other screens within the App. 
+
+Emmanuel will be working on any business logic in the app, including login and server communications.
+
+Kieran's main role in the project is to design and test all stories and scenarios the app should, and should not carry
+provide. Once the Android team have completed a feature of the app Kieran will be in charge of testing the app to 
+ensure accuracy in the delivery.
+
+While the above are the main roles of each team member, everyone will be taking lead on different aspects of the 
+project when it comes to submissions, deadlines , etc..
