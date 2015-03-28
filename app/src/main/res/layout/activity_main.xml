@@ -65,4 +65,39 @@
         android:layout_alignEnd="@+id/images"
         android:onClick="changeRecentActivity"/>
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/longText"
+        android:text="@string/longText"
+        android:inputType="text"
+        android:textColor="#ffefffdf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/currentText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/latText"
+        android:text="@string/latText"
+        android:inputType="text"
+        android:textColor="#fff8ffeb"
+        android:layout_below="@+id/longText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/currentText"
+        android:text="@string/currentTxt"
+        android:textColor="#fffffcfe"
+        android:height="@dimen/abc_action_button_min_width_overflow_material"
+        android:layout_below="@+id/recentBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="67dp" />
+
 </RelativeLayout>

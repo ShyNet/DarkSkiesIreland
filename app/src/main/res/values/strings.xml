@@ -17,6 +17,10 @@
     <string name="myImg">My Images</string>
     <string name="ViewImg">View Images </string>
     <string name="title_activity_recent">RecentActivity</string>
+    <string name="longText">Longitude</string>
+    <string name="latText">Latitude</string>
+    <string name="currentTxt">Current GPS </string>
+
 
 
 </resources>
