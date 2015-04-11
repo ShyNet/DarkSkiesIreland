@@ -15,6 +15,7 @@ import com.google.android.gms.maps.*;
 
 public class BestLocationNow extends ActionBarActivity  {
     GoogleMap googleMap;
+    private static double lat,lng;
     private void createMapView(){
         /**
          * Catch the null pointer exception that
@@ -44,7 +45,7 @@ public class BestLocationNow extends ActionBarActivity  {
         /** Make sure that the map has been initialised **/
         if(null != googleMap){
             googleMap.addMarker(new MarkerOptions()
-                            .position(new LatLng(0, 0))
+                            .position(new LatLng(lat, lng))
                             .title("Marker")
                             .draggable(true)
             );
@@ -57,6 +58,10 @@ public class BestLocationNow extends ActionBarActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Bundle bundle = getIntent().getExtras();
+        lat= bundle.getDouble("lat");
+        lng= bundle.getDouble("lng");
+
         setContentView(R.layout.activity_best_location_now);
         createMapView();
         addMarker();

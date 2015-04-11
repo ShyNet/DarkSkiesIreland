@@ -20,6 +20,7 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
     private TextView longitudeField;
     private LocationManager locationManager;
     private String provider;
+    private double lat,lng;
 
 
     @Override
@@ -58,8 +59,8 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
     }
     @Override
     public void onLocationChanged(Location location) {
-        int lat = (int) (location.getLatitude());
-        int lng = (int) (location.getLongitude());
+         lat =  (location.getLatitude());
+         lng =  (location.getLongitude());
         latituteField.setText("latitude is: " +String.valueOf(lat));
         longitudeField.setText("longitude is: "+ String.valueOf(lng));
     }
@@ -98,14 +99,18 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
 
     public void changeBestLocationNow(View view) {
         Intent intent = new Intent(this, BestLocationNow.class);
+        Bundle b = new Bundle();
+        b.putDouble("lat",lat);
+        b.putDouble("lng",lng);
 
+        intent.putExtra("lat",lat);
+        intent.putExtra("lng",lng);
 
         startActivity(intent);
 
 
 
     }
-
 
     public  void changePlanAhead(View view){
         Intent intent = new Intent(this, PlanAhead.class);
