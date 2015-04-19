@@ -2,67 +2,46 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Antoin\Documents\College\MasterDarkSkies\DarkSkiesIreland\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Antoin\Documents\College\MasterDarkSkies\DarkSkiesIreland\app\build\intermediates\pre-dexed\debug\classes-dd0a0a5677595450ef7a963017deaa76b1bc56a3.jar" />
-    </item>
-    <item
-        jar="C:\Users\Antoin\Documents\College\MasterDarkSkies\DarkSkiesIreland\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.2.42\classes.jar"
+        jar="/Users/niallw/AndroidStudioProjects/DarkSkies/DarkSkiesIreland/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e5f81129dfb3d02df80126512bc98278ed2bb40a">
-        <dex dex="C:\Users\Antoin\Documents\College\MasterDarkSkies\DarkSkiesIreland\app\build\intermediates\pre-dexed\debug\classes-7813b00bfd728861b08c21c5659538178dd2f9fd.jar" />
+        <dex dex="/Users/niallw/AndroidStudioProjects/DarkSkies/DarkSkiesIreland/app/build/intermediates/pre-dexed/debug/classes-abfdb77f649edf3ee7edfade8fa2a6b406146c12.jar" />
     </item>
     <item
-        jar="C:\Users\Antoin\Documents\College\MasterDarkSkies\NewDarkSkies\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jar="/Users/niallw/AndroidStudioProjects/DarkSkies/DarkSkiesIreland/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/niallw/AndroidStudioProjects/DarkSkies/DarkSkiesIreland/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-5c45160f59abb2d2334007a02445a7f42faaa5a0.jar" />
+    </item>
+    <item
+        jar="/Users/niallw/AndroidStudioProjects/DarkSkies/DarkSkiesIreland/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cf251baf39f5c5138224b67b4106eb6331abbd13">
+        <dex dex="/Users/niallw/AndroidStudioProjects/DarkSkies/DarkSkiesIreland/app/build/intermediates/pre-dexed/debug/classes-79a5a31b011d873d15597f9709a5a64e498a206c.jar" />
+    </item>
+    <item
+        jar="/Users/niallw/AndroidStudioProjects/DarkSkies/DarkSkiesIreland/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Antoin\Documents\College\MasterDarkSkies\NewDarkSkies\app\build\intermediates\pre-dexed\debug\classes-ca9e869e8daec95dc3609fa242c95f46c0624e12.jar" />
+        <dex dex="/Users/niallw/AndroidStudioProjects/DarkSkies/DarkSkiesIreland/app/build/intermediates/pre-dexed/debug/classes-f484a3f2a8acb3cbeb4b196290ff61faa11d0c05.jar" />
     </item>
     <item
-        jar="C:\Users\Antoin\Documents\College\MasterDarkSkies\NewDarkSkies\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\Antoin\Documents\College\MasterDarkSkies\NewDarkSkies\app\build\intermediates\pre-dexed\debug\classes-9cf504d7e611572e912d96485d253f4244fce6f3.jar" />
-    </item>
-    <item
-        jar="C:\Users\Antoin\Documents\College\MasterDarkSkies\DarkSkiesIreland\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\Antoin\Documents\College\MasterDarkSkies\DarkSkiesIreland\app\build\intermediates\pre-dexed\debug\classes-7da3141425b965982aacbe006c722a22e3ecf573.jar" />
-    </item>
-    <item
-        jar="C:\Users\Antoin\Documents\College\MasterDarkSkies\NewDarkSkies\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.2.42\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e5f81129dfb3d02df80126512bc98278ed2bb40a">
-        <dex dex="C:\Users\Antoin\Documents\College\MasterDarkSkies\NewDarkSkies\app\build\intermediates\pre-dexed\debug\classes-f7fc80b90a23c852aa6555aeb6dd30b00886a874.jar" />
-    </item>
-    <item
-        jar="C:\Users\Antoin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="/Users/niallw/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\Antoin\Documents\College\MasterDarkSkies\DarkSkiesIreland\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-957db696f0fe63ae940d3847338fb1759e7cd730.jar" />
+        <dex dex="/Users/niallw/AndroidStudioProjects/DarkSkies/DarkSkiesIreland/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-7281cceebc3c79dc6175748b1154100620f65954.jar" />
     </item>
     <item
-        jar="C:\Users\Antoin\Documents\College\MasterDarkSkies\NewDarkSkies\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jar="/Users/niallw/AndroidStudioProjects/DarkSkies/DarkSkiesIreland/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Antoin\Documents\College\MasterDarkSkies\NewDarkSkies\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-41a59d34282b68df38955cf27d360537217dba59.jar" />
-    </item>
-    <item
-        jar="C:\Users\Antoin\Documents\College\MasterDarkSkies\DarkSkiesIreland\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Antoin\Documents\College\MasterDarkSkies\DarkSkiesIreland\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-29fbe711a243e681ef5fe0a760fae53e9b8a2004.jar" />
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/niallw/AndroidStudioProjects/DarkSkies/DarkSkiesIreland/app/build/intermediates/pre-dexed/debug/classes-da70a025f250d2f55a57d9e373bafdeab8b2700e.jar" />
     </item>
 
 </items>

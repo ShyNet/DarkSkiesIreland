@@ -3,6 +3,9 @@ package project.antoin.homepage1;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import android.util.Log;
@@ -10,14 +13,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.google.android.gms.maps.*;
+import com.google.maps.android.*;
 
 
 public class BestLocationNow extends ActionBarActivity  {
     GoogleMap googleMap;
     private static double lat,lng;
     private void createMapView(){
-        /**
+        /**˚
          * Catch the null pointer exception that
          * may be thrown when initialising the map
          */
