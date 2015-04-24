@@ -4,6 +4,10 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class PlanAhead extends ActionBarActivity {
@@ -12,6 +16,17 @@ public class PlanAhead extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plan_ahead);
+
+        Bundle bundle = getIntent().getExtras();
+
+        Map<String, String> headers = new HashMap<String, String>();
+        headers.put("lat", "" + bundle.getDouble("lat"));
+        headers.put("long", "" + bundle.getDouble("lng"));
+        headers.put("Content-Type", "text/html");
+
+        WebView mobileWeb = (WebView) findViewById(R.id.planAheadView);
+        mobileWeb.loadUrl("http://rubydemo-192402.euw1.nitrousbox.com:3000/three_days", headers);
+
     }
 
 

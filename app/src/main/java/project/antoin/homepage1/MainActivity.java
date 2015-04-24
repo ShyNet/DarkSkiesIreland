@@ -114,6 +114,12 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
 
     public  void changePlanAhead(View view){
         Intent intent = new Intent(this, PlanAhead.class);
+        Bundle b = new Bundle();
+        b.putDouble("lat",lat);
+        b.putDouble("lng",lng);
+
+        intent.putExtra("lat",lat);
+        intent.putExtra("lng",lng);
         startActivity(intent);
 
 
