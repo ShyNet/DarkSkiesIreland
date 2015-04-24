@@ -4,6 +4,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 
 public class News extends ActionBarActivity {
@@ -12,6 +14,10 @@ public class News extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news);
+
+        WebView mobileWeb = (WebView) findViewById(R.id.newsView);
+        mobileWeb.setWebViewClient(new WebViewClient());
+        mobileWeb.loadUrl("http://irishastro.blogspot.ie/");
     }
 
 
